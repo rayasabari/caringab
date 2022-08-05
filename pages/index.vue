@@ -57,7 +57,7 @@
         <a
           href="#"
           class="font-semibold text-primary-600 hover:text-primary-500 hover:underline"
-        >Napak</a>
+        >Ngapak</a>
       </div>
     </div>
   </div>
