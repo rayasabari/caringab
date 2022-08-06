@@ -20,7 +20,7 @@
   }
 
   .form-pge {
-    @apply w-full py-3 rounded-full bg-slate-100 border-slate-100 focus:outline-none focus:border-primary-200 focus:ring-primary-200;
+    @apply w-full py-3 rounded-full placeholder:text-slate-300 bg-slate-100 border-slate-100 focus:outline-none focus:border-primary-200 focus:ring-primary-200;
   }
 
   .btn-pge {

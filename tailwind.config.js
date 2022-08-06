@@ -28,6 +28,9 @@ module.exports = {
         primary: colors.rose,
         secondary: colors.indigo
       },
+      fontSize: {
+        '2xs': '0.6rem',
+      },
       letterSpacing: {
         'extra-wide': '.23rem'
       },
