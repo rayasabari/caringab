@@ -34,7 +34,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    { src: './plugins/vue-agile.js'},
+    { src: './plugins/vue-agile.js' },
     { src: './plugins/aos.js', mode: 'client' },
   ],
 
@@ -44,7 +44,20 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxt/postcss8',
+    '@nuxtjs/google-analytics'
   ],
+
+  // Google Analytics
+  googleAnalytics: {
+    id: process.env.GOOGLE_ANALYTICS_ID, // Use as fallback if no runtime config is provided
+  },
+  
+  // Modules (https://go.nuxtjs.dev/config-modules)
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: process.env.GOOGLE_ANALYTICS_ID
+    }
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
